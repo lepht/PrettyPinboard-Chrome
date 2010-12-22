@@ -1,0 +1,19 @@
+<plist version='1.0'>
+<dict>
+<key>Extension Updates</key>
+<array>
+<dict>
+<key>CFBundleIdentifier</key>
+<string>com.sabotage.safari.prettypinboard</string>
+<key>Developer Identifier</key>
+<string>W33JZPPPFN</string>
+<key>CFBundleVersion</key>
+<string>0.1</string>
+<key>CFBundleShortVersionString</key>
+<string>0.1</string>
+<key>URL</key>
+<string>https://github.com/downloads/Shpigford/PrettyPinboard/PrettyPinboard.0.1.safariextz</string>
+</dict>
+</array>
+</dict>
+</plist>
