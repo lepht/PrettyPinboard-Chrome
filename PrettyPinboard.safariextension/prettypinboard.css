@@ -11,8 +11,8 @@ a, a:visited {
 }
 #banner {
   background: #265fac !important;
-  /*background: -moz-linear-gradient(top, #2761B0 0%, #265fac 100%) !important;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2761B0), color-stop(100%,#265fac)) !important;*/
+  background: -moz-linear-gradient(top, #2967ba 0%, #265fac 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2967ba), color-stop(100%,#265fac)) !important;
   width: 100% !important;
   position: fixed;
   left: 0;
@@ -78,11 +78,21 @@ a, a:visited {
 #main_column b {
   font-size: 150% !important;
 }
-#bookmarks .bookmark_title {
-  font-size: 130% !important;
+.bookmark_title {
+  font-size: 140% !important;
 }
-#bookmarks .bookmark_title:hover {
+.bookmark_title:hover {
   text-decoration: underline !important;
+}
+.bookmark_count {
+  background: #eee;
+  padding: 3px 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  top: -3px;
+  font-weight: bold;
 }
 .tag, .tag:visited {
   color: #acca88 !important;
@@ -123,4 +133,7 @@ a, a:visited {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}
+.display .source {
+  display: inline-block;
 }
